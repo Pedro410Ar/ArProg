@@ -1,0 +1,41 @@
+.proyectos{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    clear: right;           
+}
+
+.proyectos h1{
+    width: auto;
+    height: auto;
+    padding: 40px 250px 10px 250px;
+}
+
+.proyectos li{
+    display: inline-block;
+    text-align: center;
+    width: 42%;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    margin-left: 80px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+    border-color: #424040;
+    border-width: 4px;
+    border-style: solid;
+
+    border-radius: 10px;
+
+    transition: 1s all;
+}
+    
+.proyectos li:hover{
+    background: #4da5c0;
+    transform: scale(1.1) rotate(1.2deg);
+}
+
+.imagen-proyecto{
+    border-radius: 20px;
+}

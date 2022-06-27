@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    padding: 40px;  
+ 
+    margin: 0px;
+    
+    
+}
+
+.copyright, .desarrollo{
+    color: black;
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+
+
+.qr{
+    width: 100px;
+    height: 100px;
+}

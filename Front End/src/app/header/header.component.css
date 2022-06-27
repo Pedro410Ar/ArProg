@@ -1,0 +1,18 @@
+.logo{
+   
+    height: 80px;
+    background: white;
+    display: flex;
+    margin: 0px;
+
+}
+
+#boton-login{
+    width: 140px;
+    height: 40px;
+    background: #a2e9ff;
+    margin-top: 30px;
+    margin-left: 1030px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

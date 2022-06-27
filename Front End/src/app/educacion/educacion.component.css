@@ -1,0 +1,45 @@
+.logo_educacion{
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.formacion{
+    width: auto;
+    height: 220px;       
+    padding: 40px 300px 10px 300px;
+}
+
+.formacion li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    border-color: rgb(38, 48, 189);
+    border-width: 4px;
+    border-style: solid;
+
+    border-radius: 10px;
+
+    transition: 1s all;
+}
+
+.formacion li:hover{
+    background: #4da5c0;
+    transform: scale(1.1) rotate(1.2deg);
+}
+
+#formacion_id{
+    border-radius: 180px;
+    border-color: rgb(176, 190, 113);
+    width: 20%;
+}
+

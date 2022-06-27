@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    
+    <script>
+
+        const btnLogin = document.getElementById('boton-login');
+
+        const validateLogin = (e) => {
+            e.preventDefault();
+            const mail = document.getElementById('mail');
+            const pass = document.getElementById('pass');
+
+            if (mail.value === "") {
+                alert("Por favor, escriba su e-mail.");
+                mail.focus();
+                return false;
+            }
+
+            if (mail.value !== "paarruvito@hotmail.com"){
+                alert ("Por favor, escriba su e-mail correcto")
+                mail.focus();
+                return false;
+            }
+            
+            if (pass.value === "") {
+                alert("Por favor, escriba su contraseña");
+                pass.focus();
+                return false;
+            }
+
+            if (mail.value !== "paarruvito@hotmail.com" || pass.value !== 12345) {
+                alert("El mail o la contraseñan son inválidas")
+                mail.focus();
+                return false;
+            }
+
+            if (mail.value === "paarruvito@hotmail.com" || pass.value === 12345) {
+                alert("ok")
+                return true;
+            }
+
+            return true;
+            
+        }
+
+
+
+        console.log (btnLogin);
+
+        btnLogin.addEventListener('click', validateLogin);
+
+
+    </script>
+    
+
+    
+        <section class="login">
+
+            <form class="formulario-login" action="">
+                
+                <p class="titulo-login"> <strong> Iniciar Sesion  </strong> </p> 
+                
+                <input class="campo-login" id="mail" type="email" placeholder="Escriba su correo electronico" required >
+                <label for=""> </label> <br> <br>
+                
+                <input class="campo-login" id="pass" type="password" placeholder="Escriba su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
+                <label for=""> </label> <br> <br>
+    
+                
+                <button id="boton-login" > <a href="http://localhost:4200" class="link" >Entrar </a> </button>
+                                                    <!-- "../proyecto/src/index.html" -->
+            </form>
+           
+            </section>
+
+     
+
+                <style>
+                    .login{
+                    height: 500px;
+                    background: #E5E5E5;
+                    font-family: Raleway;
+                    padding-top: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;  
+                }
+
+                .titulo-login{
+                    
+                    width: 131px;
+                    height: 29px;
+                    left: 680px;
+                    top: 206px;
+
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+
+
+                .campo-login{
+                width: 415px;
+                height: 63px; 
+                font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0px;
+                    text-align: left;     
+
+                font-family: Raleway;
+                }
+
+                .link{
+                    text-decoration: none;
+                    color: #f6f7f9;
+                }
+
+                #boton-login{
+                    width: 423px;
+                    height: 62px;
+                    border-radius: 10px;
+                    font-size: 18px;
+                    color: #E5E5E5;
+                    background-color: #2A7AE4 ;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0px;
+                    font-family: Raleway;
+                    
+                
+                    transition: 1s all;
+                }
+                
+                #boton-login:hover{
+                    
+                    background:rgb(90, 186, 203);
+                    transform: scale(0.9);
+                }
+
+
+                </style>
+
+             
+    
+                
+
+</body>
+</html>

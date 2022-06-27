@@ -1,0 +1,50 @@
+.banner{
+    height: 250px;
+    width: 100%;
+}
+
+#portfolio{
+    position: absolute;
+    top: 105px;
+    left: 37%;    
+    padding-left: 40px;
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+nav{
+    position: absolute;
+    top: 200px;
+    right: 20px;    
+    padding-right: 40px;
+
+    padding: 0px;   
+    
+    font-weight: bold;
+    height: 160px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+    nav li{
+        display: inline;
+        margin: 0px 40px 0px 0px;
+        padding: 10px;        
+    }
+    
+    nav a{
+        
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        color: blue;
+                 
+   }

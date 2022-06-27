@@ -1,0 +1,51 @@
+#about{
+    width: 1000px;
+    height: 400px;        
+    padding: 40px 300px 80px 300px;
+    margin-top: 50px;
+    
+}
+
+#about p{
+    width: 540px;
+    font-size: 20px;
+    padding: 5px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
+    word-spacing: 5px;
+   
+}
+
+.foto-perfil{
+    width: 250px;
+    height: 300px;
+    float: right;  
+    border-radius: 120px;
+
+    border-color: rgb(134, 141, 140);
+    border-width: 4px;
+    border-style: solid;          
+}
+
+.texto-perfil p{
+    line-height: 130%;
+}
+
+.firma{
+  float: right;
+  margin-right: 500px;    
+}
+
+.redes {    
+    float: right;
+    width: 150px;
+    height: 300px;
+    margin-left: 40px;      
+    margin-top: 5px;   
+    
+    transition: 30s all;       
+}
+
+.redes li:hover{
+    
+    transform: scale(1.2);
+}

@@ -1,0 +1,33 @@
+.skills{
+    width: auto;
+    height: 750px;        
+    padding: 40px 300px 80px 230px;
+}
+
+#titulo-skills{
+    width: auto;              
+    padding: 40px 70px 10px 70px;
+}
+
+.skills li{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    border-color: rgb(134, 141, 140);
+    border-width: 4px;
+    border-style: solid;
+
+    border-radius: 10px;
+
+    transition: 1s all;
+}
+
+.skills li:hover{
+    background: #9ea5a2;
+    transform: scale(1.1) rotate(1.2deg);
+}
