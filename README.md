@@ -34,6 +34,6 @@ BACK END
 
 	Modulo 9 
 	8-Se generó un usuario en Clever Cloud para subir la BD a una web
-	9.-Lo mismo se intentó en Heroku .......
+	9.-Lo mismo se intentó en Heroku ....
 
 Finalmente, se generó un repositorio en GITHUB donde se cargaron los archivos con el código del proyecto, para ser compartido.   
