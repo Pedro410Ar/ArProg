@@ -14,8 +14,7 @@ FRONT END
 
 	Modulo 2
 	1-Se maquetó el proyecto utilizando HTML y CSS, con el editor Visual Studio Code.
-	2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login. Se utilizó JS en VSC.
-  Para ello se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular. 
+	2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login. Se utilizó JS en VSC. Para ello se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular. 
 
 	Modulo 3
 	3-Se generó un proyecto en el framework Angular, donde fue volcado el proyecto.
