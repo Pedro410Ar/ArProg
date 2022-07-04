@@ -1,0 +1,6 @@
+com\pietro\demo\service\IPersonaService.class
+com\pietro\demo\modelo\Persona.class
+com\pietro\demo\DemoApplication.class
+com\pietro\demo\controller\Controller.class
+com\pietro\demo\service\PersonaService.class
+com\pietro\demo\repository\PersonaRepository.class
