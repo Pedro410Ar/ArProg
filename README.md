@@ -14,13 +14,14 @@ FRONT END
 
 	Modulo 2
 	1-Se maquetó el proyecto utilizando HTML y CSS, con el editor Visual Studio Code.
-	2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login. Se utilizó JS en VSC. Para ello 
-	se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular. 
+	2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login. Se utilizó JS en VSC. 
+	Para ello se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular. 
 
 	Modulo 3
 	3-Se generó un proyecto en el framework Angular, donde fue volcado el proyecto.
 	4-Para ello, se levantó  un servidor local, y crearon los componentes (donde se replicó el codigo HTML y CSS). 
-	Asimismo, como prueba se llamó un API (archivo JSON) para mostrar por pantalla los estudios. 
+	Asimismo, como prueba se llamó un API (se usó MOCKAPI: https://mockapi.io/clone/6205c9bd161670001741bd16 
+	para mostrar por pantalla los estudios. 
 	 
 								
 BACK END
@@ -34,6 +35,7 @@ BACK END
 
 	Modulo 9 
 	8-Se generó un usuario en Clever Cloud para subir la BD a una web
-	9.-Lo mismo se intentó en Heroku ....
+	9.-Se hizo un deploy en Firebase del proyecto final. 
 
-Finalmente, se generó un repositorio en GITHUB donde se cargaron los archivos con el código del proyecto, para ser compartido.   
+Finalmente, se generó un repositorio en GITHUB donde se cargaron los archivos del Front y del Back con el código 
+del proyecto, para ser compartido.   
