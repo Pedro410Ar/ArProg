@@ -28,7 +28,8 @@ BACK END
 
 	Modulo 4
 	5-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS)
-
+	
+	<img width=600 height= 400 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
 	Modulo 8
 	6-Se generó un proyecto Java-Maven con SpringBoot Inizialitzr, con los packages y archivos correspondientes . 
 	7-Se conecta con PhpMyAdmin de XAMPP, y se utilizó el Postman para realizar pruebas y cargas de datos. 
