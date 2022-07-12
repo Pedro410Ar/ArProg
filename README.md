@@ -24,14 +24,14 @@ FRONT END
 	para mostrar por pantalla los estudios. 
 	 
 								
-BACK END
-	
-	
-	Modulo 4
+BACK END Modulo 4
 	
 	5-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS).
 	Por otro lado, se cargó el archivo en Clever Cloud, generando estos datos de información:
 	<img width=700 height= 500 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
+	
+	
+	
 
 
 
