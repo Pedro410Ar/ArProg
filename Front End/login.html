@@ -11,53 +11,26 @@
     
     <script>
 
-        const btnLogin = document.getElementById('boton-login');
+       function login(){
+        
+        const mail = document.getElementById('usuario').value;
+        const pass = document.getElementById('clave').value;
 
-        const validateLogin = (e) => {
-            e.preventDefault();
-            const mail = document.getElementById('mail');
-            const pass = document.getElementById('pass');
-
-            if (mail.value === "") {
-                alert("Por favor, escriba su e-mail.");
-                mail.focus();
-                return false;
-            }
-
-            if (mail.value !== "paarruvito@hotmail.com"){
-                alert ("Por favor, escriba su e-mail correcto")
-                mail.focus();
-                return false;
-            }
-            
-            if (pass.value === "") {
-                alert("Por favor, escriba su contraseña");
-                pass.focus();
-                return false;
-            }
-
-            if (mail.value !== "paarruvito@hotmail.com" || pass.value !== 12345) {
-                alert("El mail o la contraseñan son inválidas")
-                mail.focus();
-                return false;
-            }
-
-            if (mail.value === "paarruvito@hotmail.com" || pass.value === 12345) {
-                alert("ok")
-                return true;
-            }
-
-            return true;
-            
+        var usuario = "paarruvito@hotmail.com";
+        var clave = "12345";
+        
+        if (mail == usuario && pass == clave) {
+            alert("OK. Acceso concedido")
+           location.href = "/index.html "
+        } 
+        
+        //C:\Users\Usuario\Desktop\prueba3\ArProg-main\Front End\src\index.html
+        
+        else {
+            alert("Su Usuario o Contraseña es inválido")
+            location.href = "login.html";
         }
-
-
-
-        console.log (btnLogin);
-
-        btnLogin.addEventListener('click', validateLogin);
-
-
+    }
     </script>
     
 
@@ -68,15 +41,15 @@
                 
                 <p class="titulo-login"> <strong> Iniciar Sesion  </strong> </p> 
                 
-                <input class="campo-login" id="mail" type="email" placeholder="Escriba su correo electronico" required >
+                <input class="campo-login" id="usuario" type="email" placeholder="Escriba su correo electronico" required >
                 <label for=""> </label> <br> <br>
                 
-                <input class="campo-login" id="pass" type="password" placeholder="Escriba su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
+                <input class="campo-login" id="clave" type="password" placeholder="Escriba su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
                 <label for=""> </label> <br> <br>
     
                 
-                <button id="boton-login" > <a href="http://localhost:4200" class="link" >Entrar </a> </button>
-                                                    <!-- "../proyecto/src/index.html" -->
+                <button id="boton-login" onclick="login()" >Entrar </button>
+                                                 <!-- "../proyecto/src/index.html" -->
             </form>
            
             </section>
