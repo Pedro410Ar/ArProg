@@ -10,14 +10,15 @@ Cabe aclarar que el proyecto consiste en mostrar lo aprendido.
 En tal sentido, he realizado lo siguiente: 
 
 
+
 FRONT END
 
 Modulo 2
 
 1-Se maquetó el proyecto utilizando HTML y CSS, con el editor Visual Studio Code.
 
-2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login. Se utilizó JS en VSC. 
-Para ello se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular. 
+2-En la segunda parte, se intentó darle funcionalidad para edición mediante un Login básico realizado con JS en VSC. 
+Para ello se creó un Boton-Login que se vincula a un archivo login.html dentro del proyecto angular (ubicado en la carpeta assets). 
 
 
 Modulo 3
@@ -25,18 +26,20 @@ Modulo 3
 3-Se generó un proyecto en el framework Angular, donde fue volcado el proyecto.
 
 4-Para ello, se levantó  un servidor local, y crearon los componentes (donde se replicó el codigo HTML y CSS). 
-Asimismo, como prueba se llamó un API (se usó MOCKAPI: https://mockapi.io/clone/6205c9bd161670001741bd16 
+Asimismo, como prueba se llamó un API (se usó MockAPI: https://mockapi.io/clone/6205c9bd161670001741bd16 )
 para mostrar por pantalla los estudios. 
 	 
 	 
-	 
+	
+	
 								
 BACK END 
 
-Modulo 4	
-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS).
+Modulo 4
+
+5-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS).
 Por otro lado, se cargó el archivo en Clever Cloud, generando estos datos de información:
-<img width=900 height= 500 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
+<img width=1000 height= 500 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
 
 
 	
