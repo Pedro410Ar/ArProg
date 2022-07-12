@@ -25,11 +25,13 @@ FRONT END
 	 
 								
 BACK END
-<img width=600 height= 400 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
+
 
 
 	Modulo 4
-	5-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS)
+	5-Se creó una BD en PHP MyAdmin de XAMPP (que luego sería completada mediante class JAVA utilizando NETBEANS).
+	Por otro lado, se cargó el archivo en Clever Cloud, generando estos datos de información:
+	<img width=600 height= 600 src="https://github.com/Pedro410Ar/ArProg/blob/main/captura%20Clever%20Cloud.PNG"/>
 	
 	Modulo 8
 	6-Se generó un proyecto Java-Maven con SpringBoot Inizialitzr, con los packages y archivos correspondientes . 
